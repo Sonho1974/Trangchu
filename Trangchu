@@ -1,1 +1,108 @@
-https://chatgpt.com/canvas/shared/6826b6aaf6248191880aa44667457f2c
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang chủ - Dương Thúc Sơn</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-image: url('banner.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 80px 40px;
+      color: white;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .content {
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dương Thúc Sơn</h1>
+    <nav>
+      <a href="#">Trang chủ</a>
+      <a href="#tho">Trang thơ</a>
+      <a href="#kyniem">Ký ức</a>
+      <a href="#lienhe">Liên hệ</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Chào mừng bạn đến với thế giới sáng tạo của tôi</h2>
+    <p>Trang web lưu giữ những vần thơ, ký ức tuổi học trò và hành trình sống đáng nhớ của Dương Thúc Sơn.</p>
+  </section>
+  <section class="content">
+    <div class="card">
+      <h3>Trang thơ</h3>
+      <p>Tập hợp những bài thơ sâu lắng, đầy cảm xúc – nơi trải lòng và kết nối tâm hồn.</p>
+    </div>
+    <div class="card">
+      <h3>Ký ức học trò</h3>
+      <p>Những câu chuyện, hình ảnh về tuổi học trò dưới mái trường THCS Quang Trung A - TP. Vinh.</p>
+    </div>
+    <div class="card">
+      <h3>Chia sẻ cá nhân</h3>
+      <p>Góc nhìn về cuộc sống, công việc, và những trải nghiệm đầy chất nhân văn.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Dương Thúc Sơn. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
